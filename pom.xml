@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>io.g2tech.jfc</groupId>
+	<artifactId>jfc-project</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<modules>
+		<module>jfc</module>
+	</modules>
+	<properties>
+		<java.version>11</java.version>
+		<maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
+
+		<!-- logging -->
+		<slf4j.version>1.7.25</slf4j.version>
+	</properties>
+</project>
